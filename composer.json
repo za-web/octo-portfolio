@@ -1,0 +1,25 @@
+{
+  "name": "za-web/octo-portfolio",
+  "description": "Portfolio plugin for OctoberCMS",
+  "license": "MIT",
+  "keywords": [
+    "OctoberCMS",
+    "October",
+    "CMS",
+    "plugin",
+    "portfolio"
+  ],
+  "authors": [
+    {
+      "name": "Aleksandr Zamiatin",
+      "email": "cawa123@mail.ru"
+    },
+    {
+      "name": "Ivan",
+      "email": "iillexial@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  }
+}
