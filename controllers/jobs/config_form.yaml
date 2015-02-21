@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Work
+
+# Model Form Field configuration
+form: $/zaweb/octoportfolio/models/jobs/fields.yaml
+
+# Model Class name
+modelClass: Zaweb\Octoportfolio\Models\Jobs
+
+# Default redirect location
+defaultRedirect: zaweb/octoportfolio/jobs
+
+# Create page
+create:
+    title: Create Work
+    redirect: zaweb/octoportfolio/jobs/update/:id
+    redirectClose: zaweb/octoportfolio/jobs
+
+# Update page
+update:
+    title: Edit Work
+    redirect: zaweb/octoportfolio/jobs
+    redirectClose: zaweb/octoportfolio/jobs
+
+# Preview page
+preview:
+    title: Preview Work

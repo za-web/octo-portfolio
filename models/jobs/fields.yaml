@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+       title:
+            label: zaweb.octoportfolio::lang.jobs.fields.title
+            tab: zaweb.octoportfolio::lang.jobs.tabs.main.title
+       description:
+            label: zaweb.octoportfolio::lang.jobs.fields.description
+            type: richeditor
+            tab: zaweb.octoportfolio::lang.jobs.tabs.main.title
+       attachments:
+            label: Картинки
+            type: fileupload
+            imageWidth: 250
+            imageHeight: 250
+            tab: zaweb.octoportfolio::lang.jobs.tabs.attachments.title
+       categories:
+           tab: zaweb.octoportfolio::lang.jobs.tabs.categories.title
+           type: relation
+           commentAbove: zaweb.octoportfolio::lang.categories.select_category

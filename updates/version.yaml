@@ -1,0 +1,5 @@
+1.0.1:
+  - Plugin succefuild install
+  - create_categories_table.php
+  - create_jobs_categories_table.php
+  - create_jobs_table.php

@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: zaweb.octoportfolio::lang.categories.fields.title
+        span: left
+    alias:
+        label: zaweb.octoportfolio::lang.categories.fields.alias
+        span: right
+    description:
+        label: zaweb.octoportfolio::lang.categories.fields.description
+        type: textarea
+

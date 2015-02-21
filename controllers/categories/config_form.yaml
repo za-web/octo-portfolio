@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Category
+
+# Model Form Field configuration
+form: $/zaweb/octoportfolio/models/category/fields.yaml
+
+# Model Class name
+modelClass: Zaweb\Octoportfolio\Models\Category
+
+# Default redirect location
+defaultRedirect: zaweb/octoportfolio/categories
+
+# Create page
+create:
+    title: Create Category
+    redirect: zaweb/octoportfolio/categories/update/:id
+    redirectClose: zaweb/octoportfolio/categories
+
+# Update page
+update:
+    title: Edit Category
+    redirect: zaweb/octoportfolio/categories
+    redirectClose: zaweb/octoportfolio/categories
+
+# Preview page
+preview:
+    title: Preview Category
