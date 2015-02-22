@@ -32,7 +32,9 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Zaweb\Octoportfolio\Components\Jobs' => 'octoportfolio'
+            'Zaweb\Octoportfolio\Components\Jobs' => 'portfolio',
+            'Zaweb\Octoportfolio\Components\Job' => 'job',
+
         ];
     }
     /**

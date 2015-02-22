@@ -1,3 +1,8 @@
-<p>This is the default markup for component Jobs</p>
-
-<small>You can delete this file if you want</small>
+{% set portfolio = __SELF__.jobs %}
+{% for job in portfolio %}
+    <div class="job">
+        <p>
+            <a href="/portfolio/{{job.id}}">{{ job.title }}</a>
+        </p>
+    </div>
+{% endfor %}

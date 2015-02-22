@@ -1,0 +1,9 @@
+{% set job = __SELF__.job %}
+<div class="job">
+    <p>
+        <a href="#">{{ job.title }}</a> | <a href="#">{{ job.categories.0.name }}</a>
+        <small>{{ job.description|raw }}</small>
+    </p>
+    <img src="{{ job.attachments.0.getThumb(200, 200, 'crop') }}">
+
+</div>
