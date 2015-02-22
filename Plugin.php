@@ -1,4 +1,4 @@
-<?php namespace Zaweb\Octoportfolio;
+<?php namespace ZaWeb\Octoportfolio;
 
 use Backend\Facades\Backend;
 use System\Classes\PluginBase;
@@ -32,8 +32,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-            'Zaweb\Octoportfolio\Components\Jobs' => 'portfolio',
-            'Zaweb\Octoportfolio\Components\Job' => 'job',
+            'ZaWeb\Octoportfolio\Components\Jobs' => 'portfolio',
+            'ZaWeb\Octoportfolio\Components\Job' => 'job',
 
         ];
     }

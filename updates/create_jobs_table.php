@@ -1,4 +1,4 @@
-<?php namespace Zaweb\Octoportfolio\Updates;
+<?php namespace ZaWeb\Octoportfolio\Updates;
 
 use Schema;
 use October\Rain\Database\Updates\Migration;

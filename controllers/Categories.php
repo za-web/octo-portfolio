@@ -1,4 +1,4 @@
-<?php namespace Zaweb\Octoportfolio\Controllers;
+<?php namespace ZaWeb\Octoportfolio\Controllers;
 
 use BackendMenu;
 use Backend\Classes\Controller;
@@ -20,6 +20,6 @@ class Categories extends Controller
     {
         parent::__construct();
 
-        BackendMenu::setContext('Zaweb.Octoportfolio', 'octoportfolio', 'categories');
+        BackendMenu::setContext('ZaWeb.Octoportfolio', 'octoportfolio', 'categories');
     }
 }

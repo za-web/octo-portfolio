@@ -1,7 +1,7 @@
-<?php namespace Zaweb\Octoportfolio\Components;
+<?php namespace ZaWeb\Octoportfolio\Components;
 
 use Cms\Classes\ComponentBase;
-use Zaweb\Octoportfolio\Models\Jobs as JobsModel;
+use ZaWeb\Octoportfolio\Models\Jobs as JobsModel;
 
 class Jobs extends ComponentBase
 {

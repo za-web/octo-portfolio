@@ -6,7 +6,7 @@
 list: $/zaweb/octoportfolio/models/jobs/columns.yaml
 
 # Model Class name
-modelClass: Zaweb\Octoportfolio\Models\Jobs
+modelClass: ZaWeb\Octoportfolio\Models\Jobs
 
 # List Title
 title: Manage Works

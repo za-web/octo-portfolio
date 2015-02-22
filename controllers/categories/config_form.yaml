@@ -9,7 +9,7 @@ name: Category
 form: $/zaweb/octoportfolio/models/category/fields.yaml
 
 # Model Class name
-modelClass: Zaweb\Octoportfolio\Models\Category
+modelClass: ZaWeb\Octoportfolio\Models\Category
 
 # Default redirect location
 defaultRedirect: zaweb/octoportfolio/categories

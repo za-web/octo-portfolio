@@ -6,7 +6,7 @@
 list: $/zaweb/octoportfolio/models/category/columns.yaml
 
 # Model Class name
-modelClass: Zaweb\Octoportfolio\Models\Category
+modelClass: ZaWeb\Octoportfolio\Models\Category
 
 # List Title
 title: Manage Categories

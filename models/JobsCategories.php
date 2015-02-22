@@ -1,4 +1,4 @@
-<?php namespace Zaweb\Octoportfolio\Models;
+<?php namespace ZaWeb\Octoportfolio\Models;
 
 use Model;
 

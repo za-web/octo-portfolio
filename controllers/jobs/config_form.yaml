@@ -9,7 +9,7 @@ name: Work
 form: $/zaweb/octoportfolio/models/jobs/fields.yaml
 
 # Model Class name
-modelClass: Zaweb\Octoportfolio\Models\Jobs
+modelClass: ZaWeb\Octoportfolio\Models\Jobs
 
 # Default redirect location
 defaultRedirect: zaweb/octoportfolio/jobs

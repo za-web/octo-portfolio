@@ -1,4 +1,4 @@
-<?php namespace Zaweb\Octoportfolio\Models;
+<?php namespace ZaWeb\Octoportfolio\Models;
 
 use Model;
 
@@ -31,7 +31,7 @@ class Category extends Model
     public $belongsTo = [];
 
     public $belongsToMany = [
-        'jobs' => ['Zaweb\Octoportfolio\Models\Jobs', 'table' => 'zaweb_octoportfolio_categories', 'order' => 'created_at desc']
+        'jobs' => ['ZaWeb\Octoportfolio\Models\Jobs', 'table' => 'zaweb_octoportfolio_categories', 'order' => 'created_at desc']
     ];
 
     public $morphTo = [];
