@@ -9,8 +9,8 @@ class Jobs extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'zaweb.octoportfolio::lang.components.jobs.name',
-            'description' => 'zaweb.octoportfolio::lang.components.jobs.description'
+            'name'        => 'zaweb.octoportfolio::lang.components.job.name',
+            'description' => 'zaweb.octoportfolio::lang.components.job.description'
         ];
     }
 

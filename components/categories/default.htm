@@ -1,0 +1,8 @@
+{% set categories = __SELF__.categories %}
+{% for category in categories %}
+    <ul>
+        <li>
+            <a href="/category/{{ category.alias }}">{{ category.name }}</a></li>
+        </li>
+    </ul>
+{% endfor %}

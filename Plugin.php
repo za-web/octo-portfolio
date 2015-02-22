@@ -34,6 +34,8 @@ class Plugin extends PluginBase
         return [
             'ZaWeb\Octoportfolio\Components\Jobs' => 'portfolio',
             'ZaWeb\Octoportfolio\Components\Job' => 'job',
+            'ZaWeb\Octoportfolio\Components\Categories' => 'categories',
+
 
         ];
     }
