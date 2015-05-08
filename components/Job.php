@@ -1,7 +1,8 @@
 <?php namespace ZaWeb\Octoportfolio\Components;
 
 use Cms\Classes\ComponentBase;
-use ZaWeb\Octoportfolio\Models\Jobs;
+use ZaWeb\Octoportfolio\Models\Jobs as JobsModel;
+
 class Job extends ComponentBase
 {
 
@@ -26,6 +27,6 @@ class Job extends ComponentBase
 
     public function job()
     {
-        return Jobs::find($this->getProperties('jobId'))->first();
+        return JobsModel::find($this->getProperties('jobId'))->first();
     }
 }
